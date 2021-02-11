@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+.project {
+    font-size: 1.2rem;
+    margin: auto;
+    margin-top: 2rem;
+    display: inline-block;
+    width: 80%;
+    position: relative;
+  }
+  .projectholder{
+    margin: auto;
+    width: 60%;
+  }
+  .project-container{
+    margin: 1rem 1rem;
+  }
+  .project_image-container {
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
+    border-radius: 0.5rem;
+    margin: auto;
+  }
+
+  .project_image {
+    width: 100%;
+    vertical-align: top;
+    border-radius: 0.5rem;
+  }
+  .project_info {
+    text-align: center;
+
+  }
+  .project_name {
+    margin: 0.2rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .project_text {
+    color:snow;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0.2rem;
+  
+  }

@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0; 
+    padding: 0; 
+    font-family: inherit;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/design-development-electronics-326424.jpg); 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 0% top 0%;
+    justify-items: center;
+    align-items: center;
+}
+
+.main-nav{
+    width: 100%;
+    margin: 1.5rem auto;
+    text-align: center;
+    position: relative;
+    max-width: 1000px; 
+    min-width: 560px    ;
+    background:snow;   
+    opacity: .85;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-nav_toggle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px 10px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    visibility: hidden;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.9rem; 
+}
+.main-nav_toggle::before{
+      content: '\f0c9';
+      font-family: fontAwesome;
+      line-height: 40px;
+      color: seagreen;
+
+}
+.main-nav_toggle.active:before{
+    content: '\f00d';
+    font-family: fontAwesome;
+    line-height: 40px;
+    color: seagreen;
+}
+.main-nav_items.active{
+    display: block;
+    padding: 0.3rem 10px; 
+}
+.main-nav_toggle.active{
+    margin: 10px 10px;
+}
+.main-nav_items active{
+    margin: 1rem;
+    left: 5%;
+}
+  @media (max-width: 491px){
+    .main-nav_items a{
+        visibility: hidden;
+    }
+      .main-nav_toggle{
+          display: block;
+          cursor: pointer;
+          visibility: visible;
+      }
+  }
+
+.main-nav_items {
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-nav_item {
+    list-style:none; 
+}
+.main-nav_item a {
+    display: block; 
+    margin: 10px 0;
+    padding: 10px 20px; 
+    text-decoration: none;
+    color:	#181818; 
+}
+.main-nav_item a.active, 
+.main-nav_item a:hover {
+    background: darkseagreen; 
+    color:snow;
+    transition: 0.5s; 
+}
+/* ------------------Header och Över--------------------- */
+.main-section{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    opacity: .85;
+    overflow: hidden;
+    max-width: 1200px; 
+    min-width: 560px;
+    
+}
+
+.main-header_container{
+    margin: 1.5rem;
+}
+
+.main-section h1{ 
+    font-size: 2rem;    
+    color:darkseagreen;
+}
+
+#mainh1{
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+}
+
+.main-section h2{
+    font-size: 1.5rem;
+    color: snow;
+    font-family: inherit;
+}
+
+.main-section h3{
+    font-size: 0.8rem;
+    color: snow;
+    font-family: inherit;
+}
+
+.section-title{
+    margin: 0;
+    padding: 0.5rem;
+}
+
+#slideshowcontainer{
+    vertical-align: middle;
+    border-radius: 4px;  
+    opacity: 0.9;
+} 
+
+#slideshow{
+    border-radius: 4px;
+    width: 40%;
+}
+
+.btn{
+	background: darkseagreen;
+	text-align: center;
+	padding: 0.5rem;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+	border: 2px solid darkseagreen
+}

@@ -1,0 +1,65 @@
+.box {
+	width: 40%;
+    background: rgba(0,0,0,0.8);
+    padding: 1rem;
+	text-align: center;
+	margin: auto;
+    color: snow;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.participant_image-container {
+    width: 45%;
+    margin: auto;   
+}
+.box-img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 0.5rem;   
+}
+
+#boxh1{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border-bottom: 2px solid darkseagreen;
+    margin-bottom: 0.3rem;
+    opacity: 1;
+    color: darkseagreen;
+}
+#boxh2{
+    margin: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.box p{
+    margin: 0.3rem;
+}
+
+#progressbox{
+    border-top: 2px solid darkseagreen;
+    margin-bottom: 0.4rem;
+}
+
+progress {
+    border: none;
+    background: snow;
+    margin: 0.5rem auto;
+    width: 100%;
+}
+
+.h2profil{
+    margin: 0.3rem;
+}
+
+progress {
+    color: lightblue;
+}
+  
+progress::-webkit-progress-value {    
+    background: darkseagreen;
+}   
+  
+  progress::-moz-progress-bar {
+    background: snow;
+}

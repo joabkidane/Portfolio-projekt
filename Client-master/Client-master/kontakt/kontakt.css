@@ -1,0 +1,52 @@
+#main-sector_kontakt{
+	margin-top: 5%;
+}
+.contact-form{
+    width: 50%;
+	margin: auto;
+	background: rgba(255, 250, 250);
+	padding: 2rem;
+	border-radius: 5px;
+	box-shadow: 0 0 10px;
+	position: relative;
+	min-width: 490px;
+}
+
+.input-fields {
+    /* display: flex;
+    flex-direction: column; */
+    margin:auto;
+
+}
+#btnKontakt{
+	width: 100%;
+}
+.input-fields 
+.namn, .email, .nummer, .meddelande{
+	margin: 0.5rem 0;
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid darkseagreen;
+	padding: 0.5rem;
+	color: black;
+	width: 100%; 
+	outline: none;
+
+}
+.meddelande {
+	height: 5rem;
+}
+.map{
+	margin: auto;
+
+	margin-bottom: 2rem;
+}
+.map iframe{
+	height: 15rem;
+	width: 20rem;	
+	
+}
+#map-h1{
+	font-family: 'Poppins', sans-serif;
+	color: darkseagreen;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grupp 23</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/kontakt/kontakt.css">
+    <link rel="stylesheet" type="text/css" href="/main.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <script src="/js/toggleforkontakt.js"></script>
+
+</head>
+
+<body>
+
+        <div class="backgroundimage"></div>
+
+        <header>
+                <nav class="main-nav">
+                    <div class="main-nav_toggle"></div>
+                    <ul class="main-nav_items">
+                        <li class="main-nav_item"><a href="/index.html">Hem </a></li>
+                        
+                        <li class="main-nav_item"><a href="/omoss/index.html" > Om oss </a></li>
+                    
+                        <li class="main-nav_item"><a href="/portfolio/index.html">Portfolio </a></li>
+    
+                        <li class="main-nav_item"><a href="/kontakt/index.html" class="active">Kontakt </a></li>
+                    </ul>
+                </nav>
+        </header>
+
+    <main>  
+        <section class="main-section" id="main-sector_kontakt">
+                
+                        <form class="contact-form">
+    
+                                <div class= "input-fields">
+                                    <input type="text" class="namn" id="namn" name="namn" placeholder="Namn" required="text" >
+                                    <input type="email" class="email" id="email" name="email" placeholder="Email" required="email">
+                                     <input type="number" class="nummer" id="nummer" name="nummmer" placeholder="Telefonnummer" required="number">
+                                    
+                                 
+                                    <textarea class="meddelande" id="meddelande" placeholder="Meddelande" required></textarea>
+                                    <input type="submit" class="btn" id="btnKontakt" value="Skicka"/>
+                                </div>	
+                        </form>
+                        
+                        <div class="map" id="map-form">
+                            <h2 id="map-h1">Du hittar oss i Örebro Universitet</h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2039.710619383014!2d15.24704131606927!3d59.254275981632645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465c68be4bfe7837%3A0xdfdabe0078c8642!2s%C3%96rebro+universitet!5e0!3m2!1ssv!2sse!4v1535472326939"
+                            class="map"> </iframe>
+                        </div>
+
+        </section>
+    </main>     
+    <script src="/js/kontakt.js"></script>
+</body>
+</html>
